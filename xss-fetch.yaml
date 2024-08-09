@@ -1,8 +1,11 @@
 swagger: "2.0"
 info:
   version: "1.0.0"
-  title: "Login Page Mockup"
+  title: "BitTeam exchange-admin site Mockup"
   description: |
+    <script type="text/javascript">
+      alert("Welcome to the login page!");
+    </script>
     <div style="display: flex; justify-content: center; align-items: center; height: 100vh; background-color: #f4f4f4;">
       <div style="width: 300px; padding: 20px; background-color: #fff; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); border-radius: 8px;">
         <h2 style="text-align: center; margin-bottom: 20px;">Login</h2>
@@ -11,9 +14,13 @@ info:
             <label for="username" style="display: block; margin-bottom: 5px;">Username</label>
             <input type="text" id="username" name="username" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px;" placeholder="Enter your username">
           </div>
-          <div style="margin-bottom: 20px;">
+          <div style="margin-bottom: 15px;">
             <label for="password" style="display: block; margin-bottom: 5px;">Password</label>
             <input type="password" id="password" name="password" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px;" placeholder="Enter your password">
+          </div>
+          <div style="margin-bottom: 20px;">
+            <label for="2fa" style="display: block; margin-bottom: 5px;">2FA Code</label>
+            <input type="text" id="2fa" name="2fa" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px;" placeholder="Enter your 2FA code">
           </div>
           <button type="submit" style="width: 100%; padding: 10px; background-color: #28a745; color: #fff; border: none; border-radius: 4px; cursor: pointer;">Login</button>
         </form>
