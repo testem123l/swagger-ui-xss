@@ -4,5 +4,10 @@
     "title": "API Documentation",
     "description": "Description of the API"
   },
-  "url": "https://raw.githubusercontent.com/testem123l/swagger-ui-xss/main/xss-fetch.yaml"
+  "urls": [
+    {
+      "url": "https://raw.githubusercontent.com/testem123l/swagger-ui-xss/main/xss-fetch.yaml",
+      "name": "XSS payload"
+    }
+  ]
 }
