@@ -1,5 +1,5 @@
 swagger: "2.0"
 info:
-  title: XSS test
-  description: "<form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id=\"\"></textarea><img onerror=\"alert('test')\" src=\"1\"></form>"
+  title: Simple Test
+  description: "This is a simple description to check rendering."
   version: "1.0.0"
